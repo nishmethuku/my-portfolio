@@ -1,0 +1,42 @@
+.home-section {
+    background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #0f0c29);
+    background-size: 400% 400%;
+    animation: gradientMove 12s ease infinite;
+    color: white;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .scroll-indicator .scroll-down {
+    display: block;
+    width: 24px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .scroll-indicator .scroll-down::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: scrollAnim 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes scrollAnim {
+    0% { top: 8px; opacity: 1; }
+    50% { top: 16px; opacity: 0.5; }
+    100% { top: 24px; opacity: 0; }
+  }
+  
