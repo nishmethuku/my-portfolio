@@ -5,7 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Production build
-dist/
 build/
 
 # Environment variables
@@ -59,4 +58,4 @@ jspm_packages/
 *.tgz
 
 # Yarn Integrity file
-.yarn-integrity 
+.yarn-integrity
