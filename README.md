@@ -1,4 +1,4 @@
-# Yash Sawhney – Personal Website
+# Nish Methuku – Personal Website
 
 A beautiful, modern, and responsive personal website built with React, Vite, and Tailwind CSS.
 
